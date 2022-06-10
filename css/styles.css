@@ -2370,11 +2370,14 @@ progress {
   color: #fff;
   background-color: #11A2E0;
   border-color: #11A2E0;
+  border-radius: 10rem;
+
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #1580ad;
   border-color: #1580ad;
+  border-radius: 10rem;
 }
 
 .btn-custom {
