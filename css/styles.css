@@ -10682,13 +10682,6 @@ body {
   border: none;
   border-radius: 10rem;
 }
-.btn-xl-2{
-  padding: .75rem 1.5rem;
-  font-size: 1.25rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 10rem;
-}
 
 .navbar-tel{
   color: #ffffff !important;
@@ -10780,7 +10773,16 @@ header.masthead {
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
-@media (min-width: 992px) {
+
+.navbar-shrink .container img.dark{
+  display: block;
+}
+
+img.light{
+  display: none;
+}
+
+@media (min-width: 992px) {  
   header.masthead {
     height: 100vh;
     min-height: 40rem;
@@ -10793,6 +10795,14 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
   }
+  img.light{
+    display: block;
+  }
+
+  img.dark,
+  .navbar-shrink .container img.light{
+    display: none;
+  }    
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
